@@ -1,0 +1,20 @@
+<div class="">
+  <h1>Hello {{username}}</h1>
+</div>
+<div class="">
+  {{msg}}
+</div>
+{{#each kingdoms as |kingdom|}}
+  <div>
+    {{kingdom.name}}
+    {{kingdom.king}}
+    {{kingdom.queen}}
+  </div>
+{{/each}}
+
+<form action="/" method="post">
+  <input type="text" name="name">
+  <input type="text" name="king">
+  <input type="text" name="queen">
+  <input type="submit">
+</form>

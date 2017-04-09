@@ -1,0 +1,19 @@
+{
+  "kingdoms": [
+    {
+      "name": "Meowtown",
+      "king": "Jerry",
+      "queen": "Maggie"
+    },
+    {
+      "name": "Winterberry",
+      "king": "Xiaobin",
+      "queen": "Weiheng"
+    },
+    {
+      "name": "Paddy's Pub",
+      "king": "Frank",
+      "queen": "Shadynasty"
+    }
+  ]
+}
